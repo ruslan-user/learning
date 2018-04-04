@@ -2,11 +2,11 @@ body {
 	margin: 0;
 	padding: 0;
 	background-image: -ms-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
-  background-image: -moz-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
-  background-image: -o-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #4EDAC0), color-stop(100, #00FF90));
-  background-image: -webkit-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
-  background-image: linear-gradient(to right, #4EDAC0 0%, #00FF90 100%);
+    background-image: -moz-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
+    background-image: -o-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #4EDAC0), color-stop(100, #00FF90));
+    background-image: -webkit-linear-gradient(left, #4EDAC0 0%, #00FF90 100%);
+    background-image: linear-gradient(to right, #4EDAC0 0%, #00FF90 100%);
 }
 
 .logotype {
@@ -32,23 +32,23 @@ body {
 .submit-button {
 	display: block;
 	justify-content: center;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  background-image: -ms-radial-gradient(right bottom, ellipse farthest-corner, #37c0c0 0%, #4FDBC0 100%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-image: -ms-radial-gradient(right bottom, ellipse farthest-corner, #37c0c0 0%, #4FDBC0 100%);
 	background-image: -moz-radial-gradient(right bottom, ellipse farthest-corner, #37c0c0 0%, #4FDBC0 100%);
 	background-image: -o-radial-gradient(right bottom, ellipse farthest-corner, #37c0c0 0%, #4FDBC0 100%);
 	background-image: -webkit-gradient(radial, right bottom, 0, right bottom, 572, color-stop(0, #37c0c0), color-stop(100, #4FDBC0));
 	background-image: -webkit-radial-gradient(right bottom, ellipse farthest-corner, #37c0c0 0%, #4FDBC0 100%);
 	background-image: radial-gradient(ellipse farthest-corner at right bottom, #37c0c0 0%, #4FDBC0 100%);
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width: 280px;
-  margin-top: 15px;
-  cursor: pointer;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 280px;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 .submit-button:hover {
@@ -67,7 +67,7 @@ body {
 	padding: 0px;
 	color: grey;
 	text-decoration: none;
-	margin-top: 200px;
+	margin-top: 100px;
 	font-size: 14px;
 }
 
