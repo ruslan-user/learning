@@ -1,23 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
+var usernameInput = document.getElementById("username") // Object
+var passwordInput = document.getElementById("password") // Object
+var button = document.getElementById("btn")
 
-// var username, password, btn;
-
-btn = document.getElementById("btn");
-form = document.getElementById("form");
-
-function result () {
-	var username, password, btn, form
-		btn = document.getElementById("btn");
-		form = document.getElementById("form");
-		username = document.getElementById("username");
-		password = document.getElementById("password");
-
-		username = form.username;
-		password = form.password;
-
-		form = document.addEventListener("click", result,);
-
-		console.log(username, password);
+var handleClick = function () {
+	console.log(usernameInput.value)
+	console.log(passwordInput.value)
 }
 
-})
+button.addEventListener('click', handleClick)
