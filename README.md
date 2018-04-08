@@ -49,7 +49,38 @@ cd learning
  + Table head row should be fixed when scrolling
  + 13 row should not be displayed
  + Each name in Trainer column should be a link with href="#". Colors of visited and not visited links should be different. Text should be decorated on link hover
+ + Commit all the changes to a new branch
+ ```
+ git checkout -b 'feature/table' // create new branch and switch on it
+ git add . // add new files and changes
+ git commit -m 'Add main Table' // commit all the changes
+ git push origin feature/table // and push them to a new branch
+ ```
  </br>
  
  *Additional info about HTML tables - https://marksheet.io/html-tables.html* </br>
  *Additional info about pseudo classes and selectors - https://frontender.info/helpful-css-pseudo-selectors*
+
+## Task 4 (Redirect on login)
++ Switch to the `master` branch and do `git pull`.
++ Create new `feature/redirect-login` branch.
++ Watch about javascript [functions](https://www.youtube.com/watch?v=M3ACkFObsQw)
++ In `login.js` create a function that `sets` admin user object to the `LocalStorage` and call it. To do that you will have to convert an object to [JSON](https://www.youtube.com/watch?v=bw10M9RuR30) and then put it into the [LocalStorage](https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage)
+```javascript
+var adminUser = {
+  username: 'admin'
+  password: 'admin'
+}
+```
++ If user enters into `Login` form admin's username and password and clicks on the `Login` button, navigate to `/main.html`. To do navigation on other page use this function:
+```javascript
+var navigate = function (htmlFile) {
+ window.location.href = 'file:///{{YOUR_PATH_TO_PROJECT_FOLDER}}/learning/' + htmlFile
+}
+// navigate('main.html')
+```
++ Commit all the changes.
+</br>
+
+*Additional info about Local Storage - https://tproger.ru/articles/localstorage/* </br>
+*Additional info about functions - https://learn.javascript.ru/function-basics*
