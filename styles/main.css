@@ -53,12 +53,26 @@ th:last-child {
 	border-top-right-radius: 12px;
 }
 
-.trainer-name {
-	text-decoration: none;
-}
-
 tr:nth-child(even) {
 	background: #f4f4f2;
+}
+
+a:link {
+	color: green;
+}
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #00d62e;
+}
+
+a:active {
+	color: blue;
+}
+.trainer-link {
+	text-decoration: none;
 }
 
 .last-tr {
