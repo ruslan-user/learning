@@ -9,6 +9,62 @@ body {
     background-image: linear-gradient(to right, #4EDAC0 0%, #00FF90 100%);
 }
 
+
+table{
+	background: white;
+	height: 50%;
+	text-align: left;
+	border-radius: 12px;
+	width: 1168px;
+	margin: auto;
+	margin-top: 20px;
+	/*margin-bottom: 0px;*/
+	padding: auto;
+	font-family: Arial;
+	font-weight: lighter;
+	font-size: 15px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+td {
+	color: #828282;
+}
+
+td:first-child {
+	padding-left: 40px;
+}
+
+th {
+	background: #517cdb;
+	color: white;
+	height: 25px;
+	font-size: 18px;
+}
+
+th:first-child {
+	padding-right: 100px;
+	padding-left: 40px;
+	border-top-left-radius: 12px;
+}
+
+th:last-child {
+	border-top-right-radius: 12px;
+}
+
+.trainer-name {
+	text-decoration: none;
+}
+
+tr:nth-child(even) {
+	background: #f4f4f2;
+}
+
+.last-tr {
+	visibility: hidden;
+}
+
 .logotype {
 	color: #5bcabe;
 	font-family: Arial;
@@ -98,3 +154,4 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
