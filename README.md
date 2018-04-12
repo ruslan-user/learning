@@ -65,7 +65,7 @@ cd learning
 + Switch to the `master` branch and do `git pull`.
 + Create new `feature/redirect-login` branch.
 + Watch about javascript [functions](https://www.youtube.com/watch?v=M3ACkFObsQw)
-+ In `login.js` create a function that `sets` admin user object to the `LocalStorage` and call it. To do that you will have to convert an object to [JSON](https://www.youtube.com/watch?v=bw10M9RuR30) and then put it into the [LocalStorage](https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage)
++ In `login.js` create a function that `sets` admin user object to the `LocalStorage` and call it. To do that you will have to convert an object to a string using [JSON.stringify()](https://www.youtube.com/watch?v=bw10M9RuR30) and then put it into the [LocalStorage](https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage)
 ```javascript
 var adminUser = {
   username: 'admin'
