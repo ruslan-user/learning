@@ -1,0 +1,80 @@
+.main-table {
+    text-align: left;
+    margin: auto;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 15px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+/* MAKE TBODY SCROLLABLE */
+.main-table tbody {
+  display:block;
+  overflow:auto;
+  height:300px;
+  width:100%;
+}
+
+.main-table thead tr {
+  display:block;
+  width: 100%;
+}
+
+.main-table td {
+	color: #828282;
+}
+
+.main-table th {
+	background: #517cdb;
+	color: white;
+	height: 25px;
+	font-size: 18px;
+}
+
+/* SET WIDTH FOR 'CLASS NAME' COLUMN */
+.main-table thead tr th:nth-child(1), .main-table tbody tr td:nth-child(1) {
+  width: 140px;
+}
+
+/* SET WIDTH FOR 'TYPE' COLUMN */
+.main-table thead tr th:nth-child(2), .main-table tbody tr td:nth-child(2) {
+  width: 80px;
+}
+
+/* SET WIDTH FOR 'TRAINER' COLUMN */
+.main-table thead tr th:nth-child(3), .main-table tbody tr td:nth-child(3) {
+  width: 140px;
+}
+
+/* HIDE 13-TH TABLE ROW */
+.main-table tbody tr:nth-child(13) {
+	display: none;
+}
+
+.main-table tr:nth-child(even) {
+	background: #f4f4f2;
+}
+
+.main-table .trainer-link:link {
+	color: green;
+}
+
+.main-table .trainer-link:visited {
+	color: black;
+}
+
+.main-table .trainer-link:hover {
+	color: #00d62e;
+}
+
+.main-table .trainer-link:active {
+	color: blue;
+}
+
+.main-table .trainer-link {
+	text-decoration: none;
+}
