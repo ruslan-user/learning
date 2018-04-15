@@ -84,3 +84,16 @@ var navigate = function (htmlFile) {
 
 *Additional info about Local Storage - https://tproger.ru/articles/localstorage/* </br>
 *Additional info about functions - https://learn.javascript.ru/function-basics*
+
+## Task 5 (Create table with JavaScript)
++ Switch to the `master` branch and do `git pull`.
++ Switch to a new `feature/table-generator` branch that is already created.
++ Read about [Scope](https://getinstance.info/articles/javascript/variables-scope-in-javascript/)
++ Watch video about [Loops](https://www.youtube.com/watch?v=ITr-SzUIDpQ&t=0s&list=PL363QX7S8MfSxcHzvkNEqMYbOyhLeWwem&index=12)
++ In `table.js` file loop through `tableData` array and insert each propery of a current object into the corresponding table cell using `window.generator.createRow()` method.
++ Modify `window.generator.createRow()` method so that it wraps `trainer` text into a link with `.trainer-link` class like it was before.
++ Push all the changes.
+</br>
+
+*Additional info about working with DOM - https://learn.javascript.ru/modifying-document* </br>
+*How to add a class to the element - http://html5.by/blog/javascript-classlist-api/*
