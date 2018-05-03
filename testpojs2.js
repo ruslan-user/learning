@@ -9,7 +9,7 @@ var robot = {
 var report = function() {
 		if (robotIsWalking == true) {
 			console.log("I'm walking.");
-		} esle {
+		} else {
 			console.log("I'm standing.");
 		}
 	}
@@ -21,13 +21,13 @@ var sayHello = function sayHello() {
 var robotIsWalking
 
 var startWalking = function startWalking() {
-		robotIsWalking == boolean(true);
+		robotIsWalking = true;
 		console.log("I'm starting to walk");
 	}
 
 
 var stopWalking = function stopWalking() {
-		robotIsWalking == boolean(false);
+		robotIsWalking = false;
 		console.log("I'm stopping");
 	}
 
